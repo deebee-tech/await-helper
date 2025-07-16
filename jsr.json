@@ -1,9 +1,7 @@
 {
    "name": "@deebeetech/await-helper",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "license": "MIT",
    "exports": "./src/index.ts",
-   "publish": {
-      "include": ["./src/**/*", "./README.md", "./CHANGELOG.md", "./LICENSE"]
-   }
+   "publish": { "include": ["./src/**/*", "./README.md", "./CHANGELOG.md", "./LICENSE"] }
 }
