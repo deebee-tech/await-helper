@@ -1,6 +1,6 @@
 {
    "name": "@deebeetech/await-helper",
-   "version": "1.1.0",
+   "version": "1.0.0",
    "description": "This is a collection of static helpers that encapsulate anything to do with async-await.",
    "homepage": "https://github.com/deebee-tech/await-helper",
    "license": "MIT",
