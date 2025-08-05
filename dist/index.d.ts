@@ -16,8 +16,7 @@ declare class AwaitHelper {
      * after all retries, it throws the last error.
      */
     static executeWithRetry: <T>(promise: Promise<T>, currentRetryCount?: number, maxRetries?: number, interval?: number) => Promise<T>;
-    /** Sleep for a specified number of milliseconds.  This is useful
-     * for delaying execution in async-await code.
+    /** Sleep for a specified number of milliseconds.
      */
     private static sleep;
 }

@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/deebee-tech/await-helper/compare/v1.1.0...v1.1.1) (2025-08-05)
+
+
+### Bug Fixes
+
+* **docs:** Documenting sleep ([fd24cac](https://github.com/deebee-tech/await-helper/commit/fd24cacf1cfd647669b3a3206b47ae0d85840f31))
+
 # [1.1.0](https://github.com/deebee-tech/await-helper/compare/v1.0.0...v1.1.0) (2025-08-05)
 
 

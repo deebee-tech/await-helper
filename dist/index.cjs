@@ -40,8 +40,7 @@ __publicField(_AwaitHelper, "executeWithRetry", async (promise, currentRetryCoun
     }
   });
 });
-/** Sleep for a specified number of milliseconds.  This is useful
- * for delaying execution in async-await code.
+/** Sleep for a specified number of milliseconds.
  */
 __publicField(_AwaitHelper, "sleep", async (ms) => {
   return new Promise((resolve) => {
