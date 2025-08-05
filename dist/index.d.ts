@@ -10,6 +10,16 @@ declare class AwaitHelper {
      * promise chain.  This method will throw the error if there is one.
      */
     static execute: <T>(promise: Promise<T>) => Promise<T>;
+    /** Execute a promise with retry logic.  This will retry the promise
+     * up to maxRetries times, waiting interval milliseconds between retries.
+     * If the promise resolves, it returns the resolved value. If it fails
+     * after all retries, it throws the last error.
+     */
+    static executeWithRetry: <T>(promise: Promise<T>, currentRetryCount?: number, maxRetries?: number, interval?: number) => Promise<T>;
+    /** Sleep for a specified number of milliseconds.  This is useful
+     * for delaying execution in async-await code.
+     */
+    private static sleep;
 }
 
 export { AwaitHelper as default };

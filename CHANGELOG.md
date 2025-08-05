@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/deebee-tech/await-helper/compare/v1.0.0...v1.1.0) (2025-08-05)
+
+
+### Features
+
+* **retry:** Adding executeWithRetry ([8827bac](https://github.com/deebee-tech/await-helper/commit/8827bac8a8393507e9ac503717782ae27e2d5bfd))
+
 # 1.0.0 (2025-07-16)
 
 
