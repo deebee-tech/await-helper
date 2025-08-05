@@ -55,8 +55,7 @@ export default class AwaitHelper {
          });
    };
 
-   /** Sleep for a specified number of milliseconds.  This is useful
-    * for delaying execution in async-await code.
+   /** Sleep for a specified number of milliseconds.
     */
    private static sleep = async (ms: number) => {
       return new Promise((resolve) => {
